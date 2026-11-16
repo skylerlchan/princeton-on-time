@@ -1,0 +1,36 @@
+{
+ "nodes": 30,
+ "slots_per_window": 3,
+ "slot_min": 10,
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "mae": {
+  "graph": 1.445,
+  "no graph": 1.44,
+  "history (stop and hour)": 1.469
+ },
+ "mae_per_seed": {
+  "graph": [
+   1.447,
+   1.446,
+   1.446
+  ],
+  "no graph": [
+   1.442,
+   1.442,
+   1.443
+  ]
+ },
+ "graph_gain_mae": {
+  "mean": -0.005,
+  "ci95": [
+   -0.009,
+   -0.001
+  ]
+ },
+ "n_train": 53854,
+ "n_test": 24842
+}

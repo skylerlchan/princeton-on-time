@@ -1,0 +1,603 @@
+{
+ "loop_local_gain_ci95_points": {
+  "today + hold": [
+   1.7,
+   8.2
+  ],
+  "re-timed + hold": [
+   6.9,
+   13.1
+  ]
+ },
+ "loop_local_wait_added_min_per_trip": 1.25,
+ "half_wait_ranges_20_draws": {
+  "1": {
+   "today + hold (half)": [
+    83.8,
+    86.1
+   ],
+   "re-timed + hold (half)": [
+    87.1,
+    89.0
+   ]
+  },
+  "2": {
+   "today + hold (half)": [
+    91.5,
+    92.2
+   ],
+   "re-timed + hold (half)": [
+    92.2,
+    93.0
+   ]
+  },
+  "3": {
+   "today + hold (half)": [
+    86.6,
+    88.2
+   ],
+   "re-timed + hold (half)": [
+    75.2,
+    82.1
+   ]
+  },
+  "4": {
+   "today + hold (half)": [
+    86.6,
+    88.3
+   ],
+   "re-timed + hold (half)": [
+    80.4,
+    84.0
+   ]
+  },
+  "5": {
+   "today + hold (half)": [
+    85.7,
+    87.0
+   ],
+   "re-timed + hold (half)": [
+    87.0,
+    88.7
+   ]
+  },
+  "6A": {
+   "today + hold (half)": [
+    87.4,
+    89.1
+   ],
+   "re-timed + hold (half)": [
+    69.1,
+    81.8
+   ]
+  },
+  "6B": {
+   "today + hold (half)": [
+    90.2,
+    92.8
+   ],
+   "re-timed + hold (half)": [
+    72.4,
+    84.8
+   ]
+  },
+  "TPL": {
+   "today + hold (half)": [
+    73.9,
+    76.6
+   ],
+   "re-timed + hold (half)": [
+    75.2,
+    79.0
+   ]
+  },
+  "TPLEXP": {
+   "today + hold (half)": [
+    88.6,
+    89.2
+   ],
+   "re-timed + hold (half)": [
+    84.1,
+    87.1
+   ]
+  }
+ },
+ "split": "2026-11-01",
+ "validation_days": [
+  "2026-10-25",
+  "2026-10-31"
+ ],
+ "test_days": 15,
+ "per_route": {
+  "1": {
+   "pick": "p80",
+   "today": 86.3,
+   "today + hold (half)": 85.3,
+   "today + hold": 83.7,
+   "today + hold at 4 timepoints": 83.7,
+   "today + hold, no knock-on": 86.6,
+   "re-timed, no hold": 82.7,
+   "re-timed + hold (half)": 88.0,
+   "re-timed + hold": 89.6,
+   "p50 everywhere + hold": 86.9,
+   "p60 everywhere + hold": 87.9,
+   "p70 everywhere + hold": 88.9,
+   "p80 everywhere + hold": 89.6,
+   "p90 everywhere + hold": 89.8
+  },
+  "2": {
+   "pick": "p80",
+   "today": 91.1,
+   "today + hold (half)": 91.8,
+   "today + hold": 91.6,
+   "today + hold at 4 timepoints": 91.6,
+   "today + hold, no knock-on": 94.5,
+   "re-timed, no hold": 89.4,
+   "re-timed + hold (half)": 92.7,
+   "re-timed + hold": 92.9,
+   "p50 everywhere + hold": 92.8,
+   "p60 everywhere + hold": 92.8,
+   "p70 everywhere + hold": 92.9,
+   "p80 everywhere + hold": 92.9,
+   "p90 everywhere + hold": 91.6
+  },
+  "3": {
+   "pick": "p80",
+   "today": 86.4,
+   "today + hold (half)": 87.3,
+   "today + hold": 87.8,
+   "today + hold at 4 timepoints": 87.0,
+   "today + hold, no knock-on": 90.0,
+   "re-timed, no hold": 65.2,
+   "re-timed + hold (half)": 79.1,
+   "re-timed + hold": 87.8,
+   "p50 everywhere + hold": 86.4,
+   "p60 everywhere + hold": 87.0,
+   "p70 everywhere + hold": 87.4,
+   "p80 everywhere + hold": 87.8,
+   "p90 everywhere + hold": 87.6
+  },
+  "4": {
+   "pick": "p90",
+   "today": 86.9,
+   "today + hold (half)": 87.3,
+   "today + hold": 87.3,
+   "today + hold at 4 timepoints": 87.1,
+   "today + hold, no knock-on": 89.0,
+   "re-timed, no hold": 64.5,
+   "re-timed + hold (half)": 82.4,
+   "re-timed + hold": 94.1,
+   "p50 everywhere + hold": 90.4,
+   "p60 everywhere + hold": 91.5,
+   "p70 everywhere + hold": 92.4,
+   "p80 everywhere + hold": 93.5,
+   "p90 everywhere + hold": 94.1
+  },
+  "5": {
+   "pick": "p80",
+   "today": 87.5,
+   "today + hold (half)": 86.3,
+   "today + hold": 85.3,
+   "today + hold at 4 timepoints": 86.1,
+   "today + hold, no knock-on": 88.2,
+   "re-timed, no hold": 85.1,
+   "re-timed + hold (half)": 87.8,
+   "re-timed + hold": 89.0,
+   "p50 everywhere + hold": 88.8,
+   "p60 everywhere + hold": 89.3,
+   "p70 everywhere + hold": 89.2,
+   "p80 everywhere + hold": 89.0,
+   "p90 everywhere + hold": 87.9
+  },
+  "6A": {
+   "pick": "p90",
+   "today": 88.0,
+   "today + hold (half)": 88.1,
+   "today + hold": 88.5,
+   "today + hold at 4 timepoints": 88.2,
+   "today + hold, no knock-on": 88.8,
+   "re-timed, no hold": 41.6,
+   "re-timed + hold (half)": 75.9,
+   "re-timed + hold": 93.2,
+   "p50 everywhere + hold": 91.1,
+   "p60 everywhere + hold": 91.9,
+   "p70 everywhere + hold": 92.7,
+   "p80 everywhere + hold": 93.2,
+   "p90 everywhere + hold": 93.2
+  },
+  "6B": {
+   "pick": "p90",
+   "today": 91.1,
+   "today + hold (half)": 91.6,
+   "today + hold": 90.9,
+   "today + hold at 4 timepoints": 90.8,
+   "today + hold, no knock-on": 93.1,
+   "re-timed, no hold": 36.1,
+   "re-timed + hold (half)": 80.6,
+   "re-timed + hold": 93.5,
+   "p50 everywhere + hold": 91.7,
+   "p60 everywhere + hold": 92.4,
+   "p70 everywhere + hold": 93.4,
+   "p80 everywhere + hold": 94.0,
+   "p90 everywhere + hold": 93.5
+  },
+  "TPL": {
+   "pick": "p80",
+   "today": 72.1,
+   "today + hold (half)": 74.9,
+   "today + hold": 77.1,
+   "today + hold at 4 timepoints": 75.4,
+   "today + hold, no knock-on": 79.1,
+   "re-timed, no hold": 68.7,
+   "re-timed + hold (half)": 77.0,
+   "re-timed + hold": 81.9,
+   "p50 everywhere + hold": 75.7,
+   "p60 everywhere + hold": 78.7,
+   "p70 everywhere + hold": 79.9,
+   "p80 everywhere + hold": 81.9,
+   "p90 everywhere + hold": 82.8
+  },
+  "TPLEXP": {
+   "pick": "p90",
+   "today": 88.4,
+   "today + hold (half)": 88.9,
+   "today + hold": 89.6,
+   "today + hold at 4 timepoints": 89.6,
+   "today + hold, no knock-on": 89.7,
+   "re-timed, no hold": 75.9,
+   "re-timed + hold (half)": 85.6,
+   "re-timed + hold": 94.2,
+   "p50 everywhere + hold": 91.5,
+   "p60 everywhere + hold": 92.1,
+   "p70 everywhere + hold": 92.7,
+   "p80 everywhere + hold": 93.8,
+   "p90 everywhere + hold": 94.2
+  }
+ },
+ "totals": {
+  "today": 87.0,
+  "today + hold (half)": 87.2,
+  "today + hold": 86.9,
+  "today + hold at 4 timepoints": 86.7,
+  "today + hold, no knock-on": 89.1,
+  "re-timed, no hold": 74.5,
+  "re-timed + hold (half)": 85.7,
+  "re-timed + hold": 90.9,
+  "p50 everywhere + hold": 88.9,
+  "p60 everywhere + hold": 89.7,
+  "p70 everywhere + hold": 90.3,
+  "p80 everywhere + hold": 90.9,
+  "p90 everywhere + hold": 90.6
+ },
+ "trip_length": {
+  "1|am": {
+   "trips": 161,
+   "scheduled_min": 10.0,
+   "retimed_min": 12.5,
+   "actual_min": 13.5,
+   "sched_layover_min": 0.0
+  },
+  "1|am_wkend": {
+   "trips": 32,
+   "scheduled_min": 10.0,
+   "retimed_min": 12.7,
+   "actual_min": 11.2,
+   "sched_layover_min": 3.0
+  },
+  "1|eve": {
+   "trips": 50,
+   "scheduled_min": 10.0,
+   "retimed_min": 11.0,
+   "actual_min": 12.0,
+   "sched_layover_min": 5.0
+  },
+  "1|mid": {
+   "trips": 358,
+   "scheduled_min": 10.0,
+   "retimed_min": 12.5,
+   "actual_min": 14.5,
+   "sched_layover_min": 0.0
+  },
+  "1|mid_wkend": {
+   "trips": 54,
+   "scheduled_min": 10.0,
+   "retimed_min": 12.5,
+   "actual_min": 12.8,
+   "sched_layover_min": 4.0
+  },
+  "1|pm": {
+   "trips": 198,
+   "scheduled_min": 16.0,
+   "retimed_min": 17.5,
+   "actual_min": 14.5,
+   "sched_layover_min": 5.0
+  },
+  "1|pm_wkend": {
+   "trips": 32,
+   "scheduled_min": 13.0,
+   "retimed_min": 14.3,
+   "actual_min": 13.5,
+   "sched_layover_min": 2.5
+  },
+  "2|am": {
+   "trips": 193,
+   "scheduled_min": 11.0,
+   "retimed_min": 12.5,
+   "actual_min": 10.5,
+   "sched_layover_min": 0.0
+  },
+  "2|am_wkend": {
+   "trips": 28,
+   "scheduled_min": 11.0,
+   "retimed_min": 13.3,
+   "actual_min": 10.3,
+   "sched_layover_min": 0.0
+  },
+  "2|eve": {
+   "trips": 61,
+   "scheduled_min": 11.0,
+   "retimed_min": 11.0,
+   "actual_min": 10.5,
+   "sched_layover_min": 0.0
+  },
+  "2|mid": {
+   "trips": 481,
+   "scheduled_min": 11.0,
+   "retimed_min": 11.0,
+   "actual_min": 10.9,
+   "sched_layover_min": 0.0
+  },
+  "2|mid_wkend": {
+   "trips": 61,
+   "scheduled_min": 11.0,
+   "retimed_min": 11.2,
+   "actual_min": 10.5,
+   "sched_layover_min": 0.0
+  },
+  "2|pm": {
+   "trips": 260,
+   "scheduled_min": 11.0,
+   "retimed_min": 13.0,
+   "actual_min": 11.5,
+   "sched_layover_min": 0.0
+  },
+  "2|pm_wkend": {
+   "trips": 41,
+   "scheduled_min": 11.0,
+   "retimed_min": 12.5,
+   "actual_min": 11.5,
+   "sched_layover_min": 0.0
+  },
+  "3|am": {
+   "trips": 36,
+   "scheduled_min": 25.0,
+   "retimed_min": 25.9,
+   "actual_min": 28.2,
+   "sched_layover_min": 5.0
+  },
+  "3|mid": {
+   "trips": 86,
+   "scheduled_min": 26.5,
+   "retimed_min": 26.2,
+   "actual_min": 26.7,
+   "sched_layover_min": 2.0
+  },
+  "3|mid_wkend": {
+   "trips": 12,
+   "scheduled_min": 21.5,
+   "retimed_min": 21.8,
+   "actual_min": 25.0,
+   "sched_layover_min": 3.5
+  },
+  "3|pm": {
+   "trips": 42,
+   "scheduled_min": 35.0,
+   "retimed_min": 37.0,
+   "actual_min": 34.0,
+   "sched_layover_min": 3.5
+  },
+  "4|am": {
+   "trips": 69,
+   "scheduled_min": 19.0,
+   "retimed_min": 22.0,
+   "actual_min": 20.5,
+   "sched_layover_min": 5.0
+  },
+  "4|mid": {
+   "trips": 197,
+   "scheduled_min": 19.0,
+   "retimed_min": 23.5,
+   "actual_min": 20.0,
+   "sched_layover_min": 5.0
+  },
+  "4|mid_wkend": {
+   "trips": 26,
+   "scheduled_min": 19.5,
+   "retimed_min": 23.0,
+   "actual_min": 19.8,
+   "sched_layover_min": 5.0
+  },
+  "4|pm": {
+   "trips": 134,
+   "scheduled_min": 19.0,
+   "retimed_min": 24.5,
+   "actual_min": 22.0,
+   "sched_layover_min": 5.0
+  },
+  "4|pm_wkend": {
+   "trips": 11,
+   "scheduled_min": 20.0,
+   "retimed_min": 24.0,
+   "actual_min": 21.0,
+   "sched_layover_min": 5.0
+  },
+  "5|am": {
+   "trips": 77,
+   "scheduled_min": 27.0,
+   "retimed_min": 28.0,
+   "actual_min": 27.0,
+   "sched_layover_min": 0.0
+  },
+  "5|am_wkend": {
+   "trips": 17,
+   "scheduled_min": 27.0,
+   "retimed_min": 28.8,
+   "actual_min": 27.0,
+   "sched_layover_min": 0.0
+  },
+  "5|eve": {
+   "trips": 24,
+   "scheduled_min": 27.0,
+   "retimed_min": 28.0,
+   "actual_min": 27.0,
+   "sched_layover_min": 0.0
+  },
+  "5|mid": {
+   "trips": 121,
+   "scheduled_min": 27.0,
+   "retimed_min": 28.5,
+   "actual_min": 27.0,
+   "sched_layover_min": 0.0
+  },
+  "5|mid_wkend": {
+   "trips": 21,
+   "scheduled_min": 27.0,
+   "retimed_min": 28.9,
+   "actual_min": 27.0,
+   "sched_layover_min": 0.0
+  },
+  "5|pm": {
+   "trips": 65,
+   "scheduled_min": 27.0,
+   "retimed_min": 28.9,
+   "actual_min": 26.5,
+   "sched_layover_min": 0.0
+  },
+  "6A|eve": {
+   "trips": 82,
+   "scheduled_min": 35.0,
+   "retimed_min": 37.5,
+   "actual_min": 35.5,
+   "sched_layover_min": 5.0
+  },
+  "6A|eve_wkend": {
+   "trips": 10,
+   "scheduled_min": 35.0,
+   "retimed_min": 36.1,
+   "actual_min": 36.7,
+   "sched_layover_min": 5.0
+  },
+  "6A|mid": {
+   "trips": 28,
+   "scheduled_min": 35.0,
+   "retimed_min": 38.4,
+   "actual_min": 35.5,
+   "sched_layover_min": 5.0
+  },
+  "6A|pm": {
+   "trips": 23,
+   "scheduled_min": 35.0,
+   "retimed_min": 38.1,
+   "actual_min": 35.3,
+   "sched_layover_min": 5.0
+  },
+  "6B|eve": {
+   "trips": 81,
+   "scheduled_min": 32.0,
+   "retimed_min": 34.5,
+   "actual_min": 32.5,
+   "sched_layover_min": 3.0
+  },
+  "6B|eve_wkend": {
+   "trips": 11,
+   "scheduled_min": 32.0,
+   "retimed_min": 35.5,
+   "actual_min": 34.5,
+   "sched_layover_min": 3.0
+  },
+  "6B|mid": {
+   "trips": 32,
+   "scheduled_min": 32.0,
+   "retimed_min": 35.3,
+   "actual_min": 32.5,
+   "sched_layover_min": 3.0
+  },
+  "6B|pm": {
+   "trips": 23,
+   "scheduled_min": 32.0,
+   "retimed_min": 33.2,
+   "actual_min": 32.0,
+   "sched_layover_min": 3.0
+  },
+  "TPL|am": {
+   "trips": 22,
+   "scheduled_min": 78.0,
+   "retimed_min": 76.7,
+   "actual_min": 75.0,
+   "sched_layover_min": 3.0
+  },
+  "TPL|mid": {
+   "trips": 29,
+   "scheduled_min": 74.0,
+   "retimed_min": 74.1,
+   "actual_min": 75.9,
+   "sched_layover_min": 7.0
+  },
+  "TPL|pm": {
+   "trips": 28,
+   "scheduled_min": 74.0,
+   "retimed_min": 77.8,
+   "actual_min": 75.5,
+   "sched_layover_min": 7.0
+  },
+  "TPLEXP|am": {
+   "trips": 78,
+   "scheduled_min": 9.0,
+   "retimed_min": 9.6,
+   "actual_min": 8.1,
+   "sched_layover_min": 10.0
+  },
+  "TPLEXP|am_wkend": {
+   "trips": 11,
+   "scheduled_min": 8.0,
+   "retimed_min": 9.0,
+   "actual_min": 8.1,
+   "sched_layover_min": 5.0
+  },
+  "TPLEXP|eve": {
+   "trips": 20,
+   "scheduled_min": 8.5,
+   "retimed_min": 10.5,
+   "actual_min": 7.8,
+   "sched_layover_min": 7.5
+  },
+  "TPLEXP|mid": {
+   "trips": 140,
+   "scheduled_min": 8.0,
+   "retimed_min": 11.4,
+   "actual_min": 9.3,
+   "sched_layover_min": 5.0
+  },
+  "TPLEXP|mid_wkend": {
+   "trips": 13,
+   "scheduled_min": 9.0,
+   "retimed_min": 9.0,
+   "actual_min": 9.8,
+   "sched_layover_min": 10.0
+  },
+  "TPLEXP|pm": {
+   "trips": 91,
+   "scheduled_min": 8.0,
+   "retimed_min": 12.6,
+   "actual_min": 9.8,
+   "sched_layover_min": 10.0
+  },
+  "TPLEXP|pm_wkend": {
+   "trips": 15,
+   "scheduled_min": 9.0,
+   "retimed_min": 9.0,
+   "actual_min": 9.6,
+   "sched_layover_min": 10.0
+  }
+ }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "princeton-on-time-poster",
+  "private": true,
+  "description": "Builds the 48 x 36 in poster from results/ (node poster.js)",
+  "dependencies": { "pptxgenjs": "4.0.1" }
+}

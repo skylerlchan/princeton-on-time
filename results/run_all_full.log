@@ -1,0 +1,58 @@
+data: /Users/skyler/Projects/school/F2026/CEE420/40 AI Artifacts/on-time/princeton-on-time/../data
+results: /Users/skyler/Projects/school/F2026/CEE420/40 AI Artifacts/on-time/princeton-on-time/results
+
+== step 1 measure
+Measuring from /Users/skyler/Projects/school/F2026/CEE420/40 AI Artifacts/on-time/princeton-on-time/../data
+  TigerTransit: 80,806 stop departures scored; dropped: {'last stop of the trip (drop-off only)': 10524, 'departed > 5 min early (likely a different trip)': 375, 'not in timetable': 37, 'departed > 60 min late (likely a different trip)': 10}
+  Loop: 12,750 stop visits from 1,680 trips, 614 scheduled visits marked Skipped
+  Rail: 7,562 departures (221 cancelled)
+  NJ Transit buses: 10,781 scheduled stops scored
+  Weather: 1,097 hours, 96 with rain reported
+  Coverage: 9,271,692 rows, 45.8 days, 0 GPS gaps over 5 min
+
+== step 2 summarize
+  TigerTransit 88.5% on time (n=78,696); Loop 77.3% on time (n=12,750); NJT bus 600/605/606 63.6% on time (n=10,651); NEC trains, Princeton Jct 79.2% on time (n=3,833)
+
+== step 2b validate
+  Loop GPS check: 8,525 departures, 92.4% within 1 min of the logged time, median -0.12 min
+  Loop cross-check: 11,759 pairs, 92.3% agree within 1 min, median lag 0.5 min
+
+== step 3 forecast
+  B0 timetable                 MAE 2.17 min  RMSE 3.12  late>5 precision 0.00 recall 0.00
+  B1 last bus at stop          MAE 2.04 min  RMSE 2.96  late>5 precision 0.21 recall 0.20
+  B2 route-stop-hour history   MAE 1.39 min  RMSE 2.18  late>5 precision 0.62 recall 0.02
+  M1 local features            MAE 1.36 min  RMSE 2.12  late>5 precision 0.59 recall 0.05
+  M2 local + graph             MAE 1.36 min  RMSE 2.12  late>5 precision 0.60 recall 0.04
+  graph gain in MAE: {'mean': 0.001, 'ci95': [-0.002, 0.004]}
+  late warning B2 history (score = historical median): AUC 0.742, top-10% flagged late 30.0%, catches 33.5% of late arrivals
+  late warning M1 local features: AUC 0.745, top-10% flagged late 30.9%, catches 33.7% of late arrivals
+  late warning M2 local + graph: AUC 0.747, top-10% flagged late 31.1%, catches 33.9% of late arrivals
+
+== step 3b graph network
+  graph network MAE 1.445, same network without edges 1.44, stop-hour history 1.469; graph gain {'mean': -0.005, 'ci95': [-0.009, -0.001]}
+
+== step 4 timetable
+timetable  p50 everywhere + hold  p60 everywhere + hold  p70 everywhere + hold  p80 everywhere + hold  p90 everywhere + hold  re-timed + hold  re-timed + hold (half)  re-timed, no hold  today  today + hold  today + hold (half)  today + hold, no knock-on
+route                                                                                                                                                                                                                                                        
+1                           86.9                   87.9                   88.9                   89.6                   89.8             89.6                    88.0               82.7   86.3          83.7                 85.3                       86.6
+2                           92.8                   92.8                   92.9                   92.9                   91.6             92.9                    92.7               89.4   91.1          91.6                 91.8                       94.5
+3                           86.4                   87.0                   87.4                   87.8                   87.6             87.8                    79.1               65.2   86.4          87.8                 87.3                       90.0
+4                           90.4                   91.5                   92.4                   93.5                   94.1             94.1                    82.4               64.5   86.9          87.3                 87.3                       89.0
+5                           88.8                   89.3                   89.2                   89.0                   87.9             89.0                    87.8               85.1   87.5          85.3                 86.3                       88.2
+6A                          91.1                   91.9                   92.7                   93.2                   93.2             93.2                    75.9               41.6   88.0          88.5                 88.1                       88.8
+6B                          91.7                   92.4                   93.4                   94.0                   93.5             93.5                    80.6               36.1   91.1          90.9                 91.6                       93.1
+TPL                         75.7                   78.7                   79.9                   81.9                   82.8             81.9                    77.0               68.7   72.1          77.1                 74.9                       79.1
+TPLEXP                      91.5                   92.1                   92.7                   93.8                   94.2             94.2                    85.6               75.9   88.4          89.6                 88.9                       89.7
+  picks: {'1': 'p80', '2': 'p80', '3': 'p80', '4': 'p90', '5': 'p80', '6A': 'p90', '6B': 'p90', 'TPL': 'p80', 'TPLEXP': 'p90'}
+  totals: {'today': 87.0, 'today + hold (half)': 87.2, 'today + hold': 86.9, 'today + hold, no knock-on': 89.1, 're-timed, no hold': 74.5, 're-timed + hold (half)': 85.7, 're-timed + hold': 90.9, 'p50 everywhere + hold': 88.9, 'p60 everywhere + hold': 89.7, 'p70 everywhere + hold': 90.3, 'p80 everywhere + hold': 90.9, 'p90 everywhere + hold': 90.6}
+
+== step 5 figures
+  figures written to /Users/skyler/Projects/school/F2026/CEE420/40 AI Artifacts/on-time/princeton-on-time/figures
+
+== step 7 weekly page
+  weekly page: /Users/skyler/Projects/school/F2026/CEE420/40 AI Artifacts/on-time/princeton-on-time/results/weekly.html, week 2026-11-09 to 2026-11-15
+
+== step 6 map
+  map written
+
+done in 7.5 min

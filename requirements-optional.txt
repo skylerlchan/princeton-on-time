@@ -1,0 +1,8 @@
+# Optional extras. Map (step 6):
+geopandas==1.2.0
+# Logger (logger/logger.py), only needed to collect new data:
+requests==2.34.2
+gtfs-realtime-bindings==3.0.0
+protobuf==7.36.2
+# Graph network (step 3b):
+torch==2.14.0

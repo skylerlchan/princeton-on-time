@@ -1,0 +1,6 @@
+{
+ "last stop of the trip (drop-off only)": 10524,
+ "departed > 5 min early (likely a different trip)": 375,
+ "not in timetable": 37,
+ "departed > 60 min late (likely a different trip)": 10
+}

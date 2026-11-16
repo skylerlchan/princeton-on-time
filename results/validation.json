@@ -1,0 +1,31 @@
+{
+ "state_page_vs_logged": {
+  "loop_departures": 12750,
+  "coverage_share": 92.2,
+  "within_1min_share_of_all": 85.2,
+  "pairs": 11759,
+  "median_lag_min": 0.5,
+  "abs_p50": 0.53,
+  "abs_p90": 0.94,
+  "within_1min_share": 92.3
+ },
+ "gps_vs_logged": {
+  "loop_departures": 12750,
+  "coverage_share": 66.9,
+  "within_1min_share_of_all": 61.7,
+  "pairs": 8525,
+  "median_diff_min": -0.12,
+  "abs_p50": 0.15,
+  "abs_p90": 0.57,
+  "within_1min_share": 92.4
+ },
+ "tigertransit_gps_vs_published": {
+  "tigertransit_departures": 78696,
+  "pairs": 5307,
+  "coverage_share": 6.7,
+  "median_diff_min": -0.12,
+  "abs_p50": 0.18,
+  "abs_p90": 0.42,
+  "within_1min_share": 98.6
+ }
+}

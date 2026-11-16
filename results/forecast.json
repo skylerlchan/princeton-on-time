@@ -1,0 +1,79 @@
+{
+ "horizon_min": 30,
+ "train_days": 32,
+ "test_days": 15,
+ "n_train": 53854,
+ "n_test": 24842,
+ "split": "2026-11-01",
+ "results": {
+  "B0 timetable": {
+   "mae": 2.173,
+   "rmse": 3.115,
+   "late_precision": 0.0,
+   "late_recall": 0.0
+  },
+  "B1 last bus at stop": {
+   "mae": 2.04,
+   "rmse": 2.964,
+   "late_precision": 0.208,
+   "late_recall": 0.205
+  },
+  "B2 route-stop-hour history": {
+   "mae": 1.387,
+   "rmse": 2.177,
+   "late_precision": 0.625,
+   "late_recall": 0.02
+  },
+  "M1 local features": {
+   "mae": 1.357,
+   "rmse": 2.121,
+   "late_precision": 0.586,
+   "late_recall": 0.047
+  },
+  "M2 local + graph": {
+   "mae": 1.356,
+   "rmse": 2.119,
+   "late_precision": 0.6,
+   "late_recall": 0.043
+  }
+ },
+ "graph_gain_mae": {
+  "mean": 0.001,
+  "ci95": [
+   -0.002,
+   0.004
+  ]
+ },
+ "m2_vs_history_mae": {
+  "mean": 0.032,
+  "ci95": [
+   0.022,
+   0.044
+  ]
+ },
+ "test_late_share": 9.2,
+ "late_warning": {
+  "B2 history (score = historical median)": {
+   "auc": 0.742,
+   "top10_late_share": 30.0,
+   "top10_catches": 33.5
+  },
+  "M1 local features": {
+   "auc": 0.745,
+   "top10_late_share": 30.9,
+   "top10_catches": 33.7
+  },
+  "M2 local + graph": {
+   "auc": 0.747,
+   "top10_late_share": 31.1,
+   "top10_catches": 33.9
+  }
+ },
+ "graph_gain_auc": {
+  "mean": 0.0018,
+  "ci95": [
+   -0.0034,
+   0.0067
+  ]
+ }
+}

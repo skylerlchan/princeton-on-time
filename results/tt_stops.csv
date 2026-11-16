@@ -1,0 +1,85 @@
+route,stop,n,median,late5,early
+1,Admissions Information Center (NB),1408,1.84,7.32,0.07
+1,Admissions Information Center (SB),1440,3.08,25.69,0.28
+1,College Rd at McCarter Theater EB,1412,1.62,6.3,0.21
+1,College Rd at McCarter Theater WB,1421,2.92,24.42,1.13
+1,Firestone Library on Nassau St.,1417,1.92,9.17,0.21
+1,Friend Center,1365,0.87,3.81,0.51
+1,Goheen Walk at Washington (NB),1443,2.18,13.58,0.07
+1,Goheen Walk at Washington (SB),1405,1.78,8.97,0.0
+1,Graduate College,1403,1.27,4.56,1.0
+1,McCosh Walk on Washington Road (NB),1435,1.73,11.01,1.39
+1,Meadows Drive Garage,1409,1.93,11.64,3.34
+1,Nassau Street at Charlton,1367,1.85,10.02,0.95
+1,Nassau Street at Palmer Sq. (WB),1445,3.33,26.09,0.14
+1,Prospect at Washington,1365,1.83,8.21,0.0
+2,Alexander St. at Lawrence Drive,1560,1.2,4.62,8.14
+2,Friend Center,1773,1.73,8.52,0.28
+2,Goheen Walk at Washington (NB),1812,0.92,2.98,1.99
+2,Goheen Walk at Washington (SB),1789,1.5,6.65,0.84
+2,Helm Building (NB),1789,1.17,3.13,0.45
+2,Helm Building (SB),182,1.15,2.2,10.99
+2,Lakeside Apartments,3596,0.77,3.09,12.32
+2,Lawrence Apartments,1748,1.11,3.26,0.69
+2,McCosh Walk on Washington Road (NB),1795,1.42,4.12,1.11
+2,Nassau Street at Charlton,1805,2.08,7.98,0.55
+2,Prospect at Washington,1796,1.6,7.41,0.06
+3,Firestone Library on Nassau St.,286,1.46,8.74,0.7
+3,Forrestal (SB),319,2.1,13.79,0.63
+3,Goheen Walk at Washington (NB),320,1.06,10.0,0.31
+3,Goheen Walk at Washington (SB),287,2.75,19.86,0.0
+3,McCosh Walk on Washington Road (NB),320,1.5,13.75,1.56
+3,McCosh Walk on Washington Road (SB),287,1.78,12.2,0.7
+3,Meadows Drive Garage,558,1.47,12.54,14.52
+3,Merwick Stanworth Apartments,275,1.17,9.82,1.09
+3,Nassau Street at Palmer Sq. (WB),319,2.32,19.12,0.63
+3,PPPL,320,2.11,16.25,0.94
+3,Princeton Medical Center,311,0.05,4.5,5.79
+4,693 Alexander Road,754,0.97,5.7,1.33
+4,Admissions Information Center (NB),765,0.52,5.62,9.15
+4,Admissions Information Center (SB),767,2.9,16.95,0.13
+4,Alexander Road at Roszel Road (NB),764,1.08,5.89,0.52
+4,Alexander Road at Roszel Road (SB),766,2.79,25.46,1.04
+4,Firestone Library on Nassau St.,763,0.97,7.99,5.77
+4,Goheen Walk at Washington (NB),764,1.73,4.84,0.13
+4,Goheen Walk at Washington (SB),757,1.97,15.06,2.51
+4,Helm Building (NB),762,1.55,6.82,0.79
+4,Helm Building (SB),767,2.22,16.95,1.3
+4,McCosh Walk on Washington Road (NB),763,2.45,8.52,0.0
+4,McCosh Walk on Washington Road (SB),764,1.27,10.08,5.89
+4,Nassau Street at Palmer Sq. (WB),766,2.99,15.4,0.13
+4,Princeton Junction,683,1.57,5.71,9.66
+4,Princeton Station,1528,1.13,8.31,3.08
+4,Stadium Garage,750,0.58,2.27,0.8
+5,Admissions Information Center (NB),1109,0.35,1.26,3.07
+5,Admissions Information Center (SB),1141,2.93,22.44,0.53
+5,Firestone Library on Nassau St.,1146,0.42,3.66,2.71
+5,Goheen Walk at Washington (NB),1143,2.6,16.19,0.0
+5,Goheen Walk at Washington (SB),1133,1.55,7.77,1.15
+5,McCosh Walk on Washington Road (NB),1138,3.09,20.65,0.0
+5,McCosh Walk on Washington Road (SB),1155,0.78,4.76,3.2
+5,Nassau Street at Palmer Sq. (WB),1146,3.3,25.04,0.09
+5,Princeton Station,1122,0.78,1.78,1.07
+5,Stadium Garage,1147,1.47,12.03,0.44
+6A,Admissions Information Center (NB),480,1.11,7.08,1.46
+6A,College Rd at McCarter Theater EB,481,1.92,9.36,0.0
+6A,Firestone Library on Nassau St.,480,1.05,9.17,6.04
+6A,Friend Center,480,0.2,3.12,1.04
+6A,Goheen Walk at Washington (SB),481,1.75,8.11,0.0
+6A,Graduate College,481,0.67,4.16,2.29
+6A,Lakeside Apartments,512,0.12,3.32,14.06
+6A,Lawrence Apartments,521,1.18,9.02,0.77
+6A,Meadows Drive Garage,479,0.47,5.43,9.6
+6A,Nassau Street at Charlton,480,0.98,9.38,11.67
+6A,Princeton Station,519,0.75,4.24,6.36
+6A,Prospect at Washington,481,1.02,6.44,0.21
+6B,Admissions Information Center (SB),557,0.97,5.57,1.26
+6B,College Rd at McCarter Theater WB,554,0.92,5.05,1.62
+6B,Goheen Walk at Washington (NB),558,1.07,3.41,0.0
+6B,Graduate College,559,0.4,4.29,2.86
+6B,Lakeside Apartments,556,0.4,2.16,1.26
+6B,Lawrence Apartments,557,0.3,3.23,1.8
+6B,McCosh Walk on Washington Road (NB),555,0.77,3.6,1.26
+6B,Meadows Drive Garage,509,0.43,3.34,33.2
+6B,Nassau Street at Palmer Sq. (WB),558,1.32,5.73,0.72
+6B,Princeton Station,559,0.7,8.05,2.15
